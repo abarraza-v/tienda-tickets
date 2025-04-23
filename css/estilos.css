@@ -104,6 +104,32 @@ header {
     background-color: #e10073;
 }
 
+.equipo {
+    padding: 3em;
+    text-align: center;
+}
+
+.equipo-grid {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.equipo-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 300px;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.equipo-card img {
+    width: 50%;
+    border-radius: 50%;
+}
+
 .contacto {
     display: flex;
     justify-content: space-between;
@@ -152,4 +178,70 @@ button {
 
 button:hover {
     background-color: #a40356;
+}
+
+footer {
+    margin-top: 8em;
+    padding: 3em;
+    background-color: #080404;
+    color: #ffffff;
+}
+
+footer div h4 {
+    font-size: larger;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.social {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.social img {
+    padding: 0.5em;
+    background-color: #4a4a4a;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
+
+.footer-columns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding-top: 1em;
+}
+
+.footer-columns div {
+    max-width: 250px;
+}
+
+.footer-columns a {
+    display: block;
+    color: #ffffff;
+    margin-top: 0.5em;
+    text-decoration: none;
+}
+
+.footer-columns a:hover {
+    text-decoration: underline;
+}
+
+.btn-centro-ayuda {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 0.7em 1.5em;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #e10073;
 }
